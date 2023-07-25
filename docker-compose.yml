@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  django:
+    image: medicaid-poll:0.0.1
+    build: .
+    ports:
+      - "8000:8000"
